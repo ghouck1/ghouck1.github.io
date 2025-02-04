@@ -4,11 +4,13 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    background-color: rgb(189, 215, 231);
 }
 
 body {
     font-family: "Inter var", "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
+    text-align: center;
 }
 
 a {
@@ -30,4 +32,25 @@ a:hover {
 .no-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+#hero {
+    text-align: center;
+}
+#hero img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+#pb-4 {
+    text-align: center;
+}
+#img-container {
+    background-color: rgb(189, 215, 231);
+}
+#my-name {
+    font-weight: bold;
 }
