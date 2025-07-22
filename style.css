@@ -5,6 +5,7 @@
     text-decoration: none;
     box-sizing: border-box;
     background-color: rgb(189, 215, 231);
+    color: black; !important;
 }
 
 body {
